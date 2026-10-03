@@ -1,0 +1,69 @@
+# ==========================================
+# Variáveis de Ambiente & Segurança (CRÍTICO)
+# ==========================================
+.env
+.env.*
+*.env
+*.env.*
+!*.env.example
+!.env.example
+
+# ==========================================
+# Python & Backend
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# Node.js & Frontend
+# ==========================================
+node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Editores & Sistema Operacional
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
